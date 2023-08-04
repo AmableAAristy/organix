@@ -25,6 +25,15 @@ img{
     margin-top: -100px;
     margin-bottom: -100px;
 }
-ul{
+.container{
+    
+    border: 2px solid red;
+    display: flex;
+    }
+
+.container > li{
+    /* padding:50px; */
+    text-align: center;
+    flex: 1;
     
 }
