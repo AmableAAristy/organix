@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(250, 222, 185);
+}
+img{
+    
+    width: 300px;
+    height: 300px;
+    
+}
+.mainImg{
+    width: 700px;
+    height: 500px;
+}
