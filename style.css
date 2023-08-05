@@ -23,25 +23,34 @@ img{
     margin-top: -100px;
     margin-bottom: -100px;
 }
-.container{ 
-    border: 2px solid red;
+.headingcontainer{ 
+    /* border: 2px solid red; */
     display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 20px;  
 }
 .item{
     padding:50px; 
     grid-row: auto; 
     text-align: center;
     flex: 1;
-    /* border: 2px solid blue;*/
+    /* border: 2px solid blue; */
 }
 .logo{
     
-    border: 2px solid purple;
-
+    /* border: 2px solid purple; */
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    
 
 }
 .headinginlogo{
-    border: 2px solid turquoise;
+    /* border: 2px solid turquoise; */
+    gap: 10px;
+    
 }
 .soapbox{
     border: 2px solid seashell;
