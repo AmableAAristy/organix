@@ -23,34 +23,34 @@ img{
     margin-top: -100px;
     margin-bottom: -100px;
 }
-.headingcontainer{ 
-    /* border: 2px solid red; */
+.headingcontainer {
+    border: 2px solid red;
     display: flex;
-    justify-content: right;
-    align-items: right;
-    gap: 20px;  
+    justify-content: space-between; /* Aligns items to the ends of the container */
+    gap: 20px;
 }
-.item{
-    padding:50px; 
-    grid-row: auto; 
-    text-align: center;
-    flex: 1;
-    /* border: 2px solid blue; */
+
+.logocontainer {
+    display: flex;
+    align-items: center; /* Vertically center the logo if needed */
 }
-.logo{
-    
-    /* border: 2px solid purple; */
+
+.logo {
+    border: 2px solid purple;
     height: 100px;
     width: 100px;
-    position: absolute;
-    left: 0px;
-    
-
 }
-.headinginlogo{
-    /* border: 2px solid turquoise; */
-    gap: 10px;
-    
+
+.headingscontainer {
+    display: flex;
+    align-items: right; /* If you want to align them to the right inside this container */
+    gap: 20px; /* Provides space between headings */
+}
+
+.headinginlogo {
+    border: 2px solid turquoise;
+}
+
 }
 .soapbox{
     border: 2px solid seashell;
